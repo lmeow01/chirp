@@ -6,7 +6,7 @@ import Image  from 'next/image'
 
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
-import { LoadingPage, LoadingSpinner, LoadingSpinning } from "~/components/loading";
+import { LoadingPage} from "~/components/loading";
 
 dayjs.extend(relativeTime);
 

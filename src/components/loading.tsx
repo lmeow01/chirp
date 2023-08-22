@@ -1,4 +1,4 @@
-export const LoadingSpinner = (props: { size?: number}) => {
+const LoadingSpinner = (props: { size?: number}) => {
     return (
         <div role="status">
             <svg 
